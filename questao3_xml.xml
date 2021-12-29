@@ -1,1 +1,27 @@
-<?xml version="1.0" ?>\  n<EnvioHistoricoCredito nome="histórico do cadastro positivo"/>\  n
+<?xml version="1.0" ?>
+<EnvioHistoricoCredito nome="histï¿½rico do cadastro positivo">
+   <cliente>
+      <Operacao>
+         <DetalheOperacao>
+            <DadosContrato indicador="prï¿½-fixado"/>
+            <DadosContrato valor_contrato_futuro="R$ 30.000,00"/>
+            <DadosContrato qtd_total_parcelas="25"/>
+         </DetalheOperacao>
+         <DadosContrato data_contratacao="10/01/2019"/>
+         <DadosContrato data_venc_ult_parcela="10/02/2021"/>
+         <DadosContrato qtd_parcelas_aberta="24"/>
+         <ParcelaAnterior numero_parcela="01"/>
+         <ParcelaAnterior data_vencimento="10/02/2019"/>
+         <ParcelaAnterior valor_parcela="R$ 1.200,00"/>
+         <ParcelaAnterior data_pagamento="09/02/2019"/>
+         <ParcelaAnterior valor_pago="R$ 1.200,00"/>
+         <ParcelaAnterior situacao_parcela="total"/>
+         <ParcelaFutura data_venc_prox_parcela="10/03/2019"/>
+         <ParcelaFutura valor_prox_parcela="R$ 1.200,00"/>
+         <ParcelaFutura qtd_parcelas_vencer="24"/>
+      </Operacao>
+      <CNPJ numero="12345678901234"/>
+      <DataRemessa data_envio="30/01/2019"/>
+      <Identificacao nome="Maria da Silva"/>
+   </cliente>
+</EnvioHistoricoCredito>
